@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.waveguide {
+  display: none;
+}
+.waveguide[active] {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background-color: coral;
+}
+nav {
+  background-color: cornflowerblue;
+}
+
+main {
+  background-color: darkslategrey;
+}
+
+aside {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: fuchsia;  
+}
+
+
+.waveguide[active]:hover {
+  outline: 1px solid var(--outline-color, red);
+}
+header:hover {
+  outline: 1px solid var(--outline-color, red);
+}
+nav:hover {
+  outline: 1px solid var(--outline-color, red);
+}
+main:hover {
+  outline: 1px solid var(--outline-color, red);
+}
+aside:hover {
+  outline: 1px solid var(--outline-color, red);
+}
+footer:hover {
+  outline: 1px solid var(--outline-color, red);
+}

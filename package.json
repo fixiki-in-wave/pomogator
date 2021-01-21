@@ -1,0 +1,30 @@
+{
+  "name": "@wave/root",
+  "version": "0.0.0",
+  "description": "Pomogator for create and serve Wave",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fixik-nolik/pomogator.git"
+  },
+  "keywords": [
+    "Wave"
+  ],
+  "author": "fixiki@in-wave.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fixik-nolik/pomogator/issues"
+  },
+  "homepage": "https://github.com/fixik-nolik/pomogator#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.3",
+    "typescript": "^4.1.3"
+  }
+}

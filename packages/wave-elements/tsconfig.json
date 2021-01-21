@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "outDir": "./",
+    "sourceMap": true,
+    "inlineSources": true,
+    "rootDir": "./"
+  },
+  "include": [ "**/*.ts" ],
+  "exclude": [ "demo/**/*.ts" ]
+}

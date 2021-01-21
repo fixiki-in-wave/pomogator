@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.node-base.json",
+    "references": [
+        {
+          "path": "./packages/wave-element/tsconfig.json"
+        },
+        {
+          "path": "./packages/wave-elements/tsconfig.json"
+        }
+    ]
+}

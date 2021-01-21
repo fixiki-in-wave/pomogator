@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "packages/"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.map": true,
+			"**/*.js": true,
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true
+		}
+	}
+}
